@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#upload-button {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+}
+
+#file-to-upload {
+  display: none;
+}
+
+#pdf-main-container {
+  width: 400px;
+  margin: 20px auto;
+}
+
+#pdf-meta {
+  overflow: hidden;
+  margin: 0 0 20px 0;
+}
+
+#pdf-buttons {
+  float: left;
+}
+
+#page-count-container {
+  float: right;
+}
+
+#pdf-current-page {
+  display: inline;
+}
+
+#pdf-total-pages {
+  display: inline;
+}
+
+#pdf-canvas {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+#download-image {
+  width: 150px;
+  display: block;
+  margin: 20px auto 0 auto;
+  font-size: 13px;
+  text-align: center;
+}
+
+p {
+  width: 50vw;
+}
+
+.progress-label {
+  margin-bottom: 5px;
+}
+.progress-bar {
+  background-color: rgb(232, 232, 232);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  max-width: 50vw;
+  text-align: center;
+}
+.progress {
+  background-color: rgb(0, 255, 170);
+  width: 0%;
+  height: 10px;
+}
